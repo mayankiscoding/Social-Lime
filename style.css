@@ -571,6 +571,10 @@ hr {
     .end .services {
         font-size: 35px;
     }
+    .card__container {
+    display: flex;
+    flex-direction: column;
+    }
 
     @keyframes transitionIn {
         from {
@@ -626,6 +630,7 @@ hr {
 /*==================== SERVICE CARD ====================*/
 .card__container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
