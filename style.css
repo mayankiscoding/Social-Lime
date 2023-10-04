@@ -779,7 +779,7 @@ hr {
     color: var(--dark-color);
     background-color: var(--clr);
 }
-.service{
-    height: 6rem;
+#service{
+    height: 5rem;
     width: auto;
 }
